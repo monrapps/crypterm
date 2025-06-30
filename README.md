@@ -13,7 +13,24 @@ Crypterm is a powerful, terminal-based dashboard for monitoring your cryptocurre
 - **Whale Watching:** Displays large transaction alerts from **Whale Alert**.
 - **Customizable TUI:** A rich, interactive Terminal User Interface built with `blessed` and `blessed-contrib`.
 
-## Installation
+## Docker Setup (Recommended)
+
+To run Crypterm using Docker, follow these steps:
+
+1.  **Build and run the container:**
+    ```bash
+    docker-compose up -d --build
+    ```
+
+2.  **Access the application:**
+    Open your browser and navigate to `http://localhost:6514` (or the port you specified in your environment).
+
+3.  **Stopping the application:**
+    ```bash
+    docker-compose down
+    ```
+
+## Manual Installation
 
 1.  **Clone the repository:**
     ```bash
