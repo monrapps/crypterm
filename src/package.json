@@ -1,0 +1,17 @@
+{
+  "name": "crypterm",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.10.1",
+    "ccxt": "^4.4.25",
+    "colors": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MonRá",
+  "license": "MIT"
+}
