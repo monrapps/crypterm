@@ -134,7 +134,7 @@ function loadInterestsFile() {
 
 function initializeAllExchanges() {
     let keysGlobal = path.resolve('keys.json');
-    let keysLocal = path.resolve('../keys.local.json');
+    let keysLocal = path.resolve('keys.local.json');
     let keysGlobalExists = fs.existsSync(keysGlobal);
     let keysLocalExists = fs.existsSync(keysLocal);
     if (!(keysGlobalExists || keysLocalExists)) {
