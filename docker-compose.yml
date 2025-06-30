@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "${PORT:-6514}:${PORT:-6514}"
+    environment:
+      - PORT=${PORT:-6514}
