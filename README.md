@@ -53,7 +53,7 @@ Before running the application, you must configure your exchange keys and assets
 
 ### 1. Exchange and API Keys (`keys.local.json`)
 
-This file holds your sensitive API keys. It should be placed in the root directory of the project (one level above `src`).
+This file holds your sensitive API keys. It should be placed in the `src` directory of the project.
 
 **Important:** This file is not tracked by Git and should never be shared.
 
